@@ -1,0 +1,199 @@
+{
+  "project_name": "Amazon A+ Content Generator AI",
+  "design_philosophy": {
+    "theme": "Light",
+    "emotional_archetype": "The Performance Pro (E-commerce Edition)",
+    "core_vibes": ["Professional", "Magical", "Efficient", "Clean"],
+    "visual_style": "Swiss Tech",
+    "description": "A pristine, high-contrast workspace that feels like a professional photo studio. White backgrounds, deep slate text, and electric indigo accents to signify AI power. The interface disappears to let the product images shine."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Outfit, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium tracking-tight",
+      "body_lg": "text-lg md:text-xl font-normal leading-relaxed text-slate-600",
+      "body_base": "text-base font-normal leading-relaxed text-slate-600",
+      "caption": "text-sm font-medium tracking-wide uppercase text-slate-500",
+      "button": "text-sm font-semibold tracking-wide"
+    },
+    "installation_guide": "Add these imports to index.css: @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');"
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#4F46E5",
+        "foreground": "#FFFFFF",
+        "hover": "#4338CA",
+        "light": "#818CF8"
+      },
+      "secondary": {
+        "DEFAULT": "#F1F5F9",
+        "foreground": "#0F172A"
+      },
+      "background": {
+        "DEFAULT": "#FFFFFF",
+        "subtle": "#F8FAFC",
+        "canvas": "#F1F5F9"
+      },
+      "surface": {
+        "DEFAULT": "#FFFFFF",
+        "raised": "#FFFFFF",
+        "overlay": "rgba(255, 255, 255, 0.8)"
+      },
+      "text": {
+        "primary": "#0F172A",
+        "secondary": "#475569",
+        "tertiary": "#94A3B8"
+      },
+      "border": {
+        "DEFAULT": "#E2E8F0",
+        "focus": "#4F46E5"
+      },
+      "status": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444"
+      }
+    },
+    "gradients": {
+      "hero_glow": "bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-100 via-white to-white",
+      "subtle_mesh": "bg-gradient-to-br from-indigo-50 via-white to-slate-50",
+      "tracing_beam": "linear-gradient(90deg, transparent, #4F46E5, transparent)"
+    }
+  },
+  "spacing_and_layout": {
+    "container": {
+      "max_width": "max-w-7xl",
+      "padding": "px-4 sm:px-6 lg:px-8",
+      "section_spacing": "py-24 md:py-32"
+    },
+    "grid_system": {
+      "landing_bento": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8",
+      "dashboard_layout": "grid grid-cols-[280px_1fr_320px] h-screen overflow-hidden",
+      "dashboard_mobile": "flex flex-col h-screen"
+    },
+    "radius": {
+      "card": "rounded-2xl",
+      "button": "rounded-lg",
+      "input": "rounded-md"
+    },
+    "z_index": {
+      "sticky_nav": "z-50",
+      "modal": "z-50",
+      "tooltip": "z-60",
+      "overlay": "z-40"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-white hover:bg-primary/90 shadow-lg shadow-indigo-500/20 transition-all active:scale-95",
+      "secondary": "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 hover:border-slate-300 shadow-sm transition-all",
+      "ghost": "text-slate-600 hover:text-slate-900 hover:bg-slate-100",
+      "cta_gradient": "bg-gradient-to-r from-indigo-600 to-violet-600 text-white shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/40 hover:-translate-y-0.5 transition-all"
+    },
+    "cards": {
+      "feature": "bg-white border border-slate-100 shadow-xl shadow-slate-200/40 rounded-3xl p-8 hover:shadow-2xl hover:shadow-slate-200/50 transition-all duration-300",
+      "pricing": "relative overflow-hidden bg-white border border-slate-200 rounded-3xl p-8 hover:border-indigo-200 transition-colors",
+      "dashboard_panel": "bg-white border-r border-slate-200 h-full flex flex-col"
+    },
+    "inputs": {
+      "default": "h-11 bg-white border-slate-200 focus:ring-2 focus:ring-indigo-100 focus:border-indigo-500 transition-all text-slate-900 placeholder:text-slate-400"
+    },
+    "navigation": {
+      "marketing_nav": "fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100",
+      "dashboard_sidebar": "bg-slate-50 border-r border-slate-200 w-72 h-screen p-4 flex flex-col gap-2"
+    },
+    "editor_workspace": {
+      "canvas_area": "bg-slate-100/50 flex-1 flex items-center justify-center relative overflow-hidden pattern-grid-lg",
+      "toolbar_floating": "absolute bottom-8 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-xl border border-white/20 shadow-2xl rounded-full px-6 py-3 flex gap-4 items-center"
+    }
+  },
+  "visual_enhancers": {
+    "shadows": {
+      "soft_glow": "0 0 40px -10px rgba(79, 70, 229, 0.15)",
+      "card_lift": "0 10px 40px -10px rgba(0,0,0,0.08)",
+      "inner_depth": "inset 0 2px 4px 0 rgba(0,0,0,0.02)"
+    },
+    "textures": {
+      "noise": "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E\")",
+      "dot_pattern": "radial-gradient(#E2E8F0 1px, transparent 1px) [background-size:24px_24px]"
+    },
+    "animations": {
+      "hover_lift": "transition-transform duration-300 hover:-translate-y-1",
+      "fade_in_up": "animate-in fade-in slide-in-from-bottom-4 duration-700",
+      "pulse_slow": "animate-pulse duration-[3000ms]"
+    }
+  },
+  "images": {
+    "hero_main": {
+      "url": "https://images.unsplash.com/photo-1580744948109-b2da1320ac87?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Professional camera studio setup showing high quality output",
+      "usage": "Hero section main visual, potentially with a split reveal effect"
+    },
+    "feature_bg_removal": {
+      "url": "https://images.unsplash.com/photo-1625860191460-10a66c7384fb?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "White sneaker on clean background",
+      "usage": "Demonstration of clean product photography"
+    },
+    "feature_lifestyle": {
+      "url": "https://images.unsplash.com/photo-1608384177866-0bca0d225435?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Sneaker in lifestyle context",
+      "usage": "Example of AI generated lifestyle context"
+    },
+    "user_persona": {
+      "url": "https://images.unsplash.com/photo-1759197332923-dd91f35c2b5f?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Professional photographer user",
+      "usage": "Testimonials or Team section"
+    },
+    "logos": [
+      "https://images.unsplash.com/photo-1652156752342-c786f1e1d1ce?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1662052955098-042b46e60c2b?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1662057168154-89300791ad6e?crop=entropy&cs=srgb&fm=jpg&q=85"
+    ]
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "Stroke width 1.5px, rounded caps/joins",
+    "mapping": {
+      "upload": "UploadCloud",
+      "magic": "Sparkles",
+      "edit": "SlidersHorizontal",
+      "download": "Download",
+      "delete": "Trash2",
+      "settings": "Settings",
+      "home": "LayoutGrid",
+      "user": "User",
+      "image": "Image",
+      "layers": "Layers"
+    }
+  },
+  "instructions_to_main_agent": [
+    "INSTALL FONTS: Ensure Outfit and Inter are imported in index.css immediately.",
+    "THEME: Strict Light Mode. Do not implement dark mode toggles unless explicitly requested. The 'Studio' vibe requires white.",
+    "LAYOUT: Use the 'Dashboard Layout' grid for the main app (Sidebar Left + Main Canvas + Properties Right).",
+    "COMPONENT: Use 'Sonner' for all toast notifications (success/error).",
+    "COMPONENT: Build a 'BeforeAfterSlider' component for the image preview if possible, or use side-by-side comparison.",
+    "INTERACTION: Add 'data-testid' to all buttons and inputs (e.g., 'upload-btn', 'generate-bg-btn').",
+    "STYLE: Avoid default gray borders. Use 'border-slate-200' or 'border-slate-100' for subtle separation.",
+    "ACCESSIBILITY: Ensure all text on white backgrounds is at least Slate-600 or darker."
+  ],
+  "universal_guidelines": [
+    "Dark colors look good when used independently without gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) for floating panels.",
+    "You MUST NOT apply universal transition (transition: all).",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles (pill-shaped or rounded-lg).",
+    "Every interaction needs micro-animations (hover states, transitions).",
+    "Prioritize using pre-existing components from src/components/ui.",
+    "Components MUST use named exports.",
+    "Pages MUST use default exports."
+  ]
+}

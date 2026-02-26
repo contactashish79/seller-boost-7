@@ -154,6 +154,9 @@ export default function Dashboard() {
         <DialogContent data-testid="new-project-dialog">
           <DialogHeader>
             <DialogTitle style={{ fontFamily: 'Outfit, sans-serif' }}>Create New Project</DialogTitle>
+            <DialogDescription>
+              Give your A+ content project a descriptive name
+            </DialogDescription>
           </DialogHeader>
           <form onSubmit={createProject} className="space-y-4">
             <div>

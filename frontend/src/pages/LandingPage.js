@@ -166,6 +166,9 @@ export default function LandingPage({ setToken, isAuthenticated }) {
             <DialogTitle style={{ fontFamily: 'Outfit, sans-serif' }}>
               {isLogin ? 'Welcome Back' : 'Create Account'}
             </DialogTitle>
+            <DialogDescription>
+              {isLogin ? 'Sign in to your account to continue' : 'Create a new account to start generating A+ content'}
+            </DialogDescription>
           </DialogHeader>
           <form onSubmit={handleAuth} className="space-y-4">
             <div>
